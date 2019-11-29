@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 
-<html">
-
+<html>
   <head>
-    <style media="screen">
-      h2 {
-        text-align:center;
-      }
-    </style>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+
+    <style>
+      body{
+      background-color: black;
+       color : white;
+      }
+      h2 {
+        text-align: center;
+      }
+
+
+    </style>
 
     <title>Excercise</title>
   </head>
-  <body>
+  <body class="container">
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+      <button type="button" class="btn btn-secondary">Home</button>
+
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Index
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item" href="#">Page 1</a>
+          <a class="dropdown-item" href="#">Page 2</a>
+        </div>
+      </div>
+    </div>
   <div class="">
       <h2>What is Excercising?</h2>
     <p>
       Excercising can be boiled down to movemnet of body.
-      when you think about it the main porpous of the body apart
-      from reproduction is movemnet. Majority of mass of the body
+      when you think about it the main porpous of the body
+      is movemnet. Majority of mass of the body
       is build to perform complex movement.
 
     </p>
